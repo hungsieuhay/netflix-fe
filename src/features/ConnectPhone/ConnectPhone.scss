@@ -1,0 +1,29 @@
+.connect-phone {
+  background-color: #000;
+  min-height: 50px;
+  padding: 70px 45px;
+  border-bottom: 8px solid #222;
+}
+.col-right {
+  & > img {
+    width: 505px;
+    height: 348px;
+  }
+  text-align: center;
+}
+.col-left {
+  color: #fff;
+  width: 42%;
+
+  & > h2 {
+    font-size: 50px;
+  }
+  & > h3 {
+    font-size: 26px;
+  }
+  & > a {
+    font-size: 26px;
+    color: #fff;
+    text-decoration: none;
+  }
+}

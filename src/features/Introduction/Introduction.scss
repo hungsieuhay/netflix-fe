@@ -1,0 +1,21 @@
+.introduction {
+  padding: 70px 45px;
+  &-info {
+    text-align: center;
+    width: 60%;
+    margin: 0 20%;
+    padding: 75px 150px;
+    color: #fff;
+
+    & > h2 {
+      font-size: 64px;
+    }
+    & > h5 {
+      font-size: 26px;
+      margin: 16px 0;
+    }
+    & > span {
+      font-size: 19px;
+    }
+  }
+}

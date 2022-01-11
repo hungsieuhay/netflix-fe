@@ -1,0 +1,25 @@
+.input-field {
+  position: relative;
+  margin-top: 10px;
+  &__input {
+    height: 70px;
+    font-size: 20px;
+  }
+  & > Button {
+    position: absolute;
+    height: 70px;
+    padding: 0 30px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #c20710;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border: none;
+    top: 0;
+    right: 0;
+  }
+  & > Button:hover {
+    background-color: #ff1e00;
+  }
+}
